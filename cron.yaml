@@ -1,10 +1,10 @@
 cron:
   - description: "Poll Upper Pines from Recreation.gov for available sites"
     url: /tasks/PollRecreationGovForSite/232447
-    schedule: every 30 mins
+    schedule: every 30 minutes
   - description: "Poll Lower Pines from Recreation.gov for available sites"
     url: /tasks/PollRecreationGovForSite/232450
-    schedule: every 30 mins
+    schedule: every 30 minutes
   - description: "Poll North Pines from Recreation.gov for available site"
     url: /tasks/PollRecreationGovForSite/232449
-    schedule: every 30 mins
+    schedule: every 30 minutes
