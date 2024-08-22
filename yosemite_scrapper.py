@@ -24,7 +24,7 @@ _POST_HEADERS = {
     'User-Agent': _get_user_agent(),
 }
 
-_SLACK_WEBHOOK_URL = 'URL'
+_SLACK_WEBHOOK_URL = '<WEBHOOK_URL>'
 
 
 def _get(url, **kwargs):
@@ -102,4 +102,4 @@ def check_campsite(campsite_id):
 
 
 if __name__ == '__main__':
-  check_campsite('232447')
+  check_campsite(232447)

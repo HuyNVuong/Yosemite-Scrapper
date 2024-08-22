@@ -2,7 +2,6 @@ from yosemite_scrapper import check_campsite
 
 import os
 from flask import Flask
-from flask import request
 
 app = Flask(__name__)
 
@@ -12,7 +11,7 @@ def poll_recreation_gov_for_updates(site_id):
     check_campsite(site_id)
 
     return 'Recreation.gov polled successfully', 200
-  except Exception as error:
+  except Exception:
 
     return 'Internal server error', 500
 
